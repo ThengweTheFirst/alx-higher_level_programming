@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-str = "Holberton Scohool[D[D[D[[C[C[C[C[hool"
-print(str + str + str)
+str = "Holberton School"
+print(3 * str)
+print(str[:9])

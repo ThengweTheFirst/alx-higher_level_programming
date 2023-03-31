@@ -1,3 +1,3 @@
 #!/bin/bash
-# takes in a URL as an argument, and
-curl -sX -F POST 'email=test@gmail.com' -F 'subject=I will always be there for PLD' "$1"
+# sends a POST request to the passed URL, and
+curl -sX POST -F 'email=test@gmail.com' -F 'subject=I will always be there for PLD' "$1"
